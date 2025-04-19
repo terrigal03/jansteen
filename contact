@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Jan Steen's World</title>
+</head>
+<body>
+    <h1>Get in Touch!</h1>
+    <p>Have a question about Jan Steen? Spot a detail I missed? Just want to say hello? Feel free to reach out!</p>
+
+   <img src="https://pub-e5fd873a2be040b28ef6ebd07d28c2b8.r2.dev/Bathsheba_Receiving_David's_Letter_by_Jan_Steen_private_collection.jpg" alt="A Painting by Jan Steen" width="400" height="auto">
+    <p style="font-style: italic;"></p>
+
+    <h2>Send a Message</h2>
+    <form action="#" method="POST"> <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject">
+        </div>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p>You can also email me directly at: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+
+    <p style="font-size: small; color: gray;"><i>Please be patient, I'm often busy admiring Jan Steen's masterpieces!</i></p>
+
+    <p><a href="/">Back to the Main Page</a></p>
+</body>
+</html>
